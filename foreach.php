@@ -1,9 +1,9 @@
 <?php
-$foods_data = ['name' => '玉ねぎ' , 'place' => 200 , 'area' => '北海道'
+$foods_data = ['名前' => '玉ねぎ' , '値段' => 200 , '産地' => '北海道'
 ];
 
-foreach ($foods_data as $food_data){
-    echo $food_data . '<br>';
+foreach ($foods_data as $key => $food_data){
+    echo $key . '：' .  $food_data . '<br>';
 }
 
 ?>
